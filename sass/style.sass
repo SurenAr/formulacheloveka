@@ -46,6 +46,7 @@ a
 		color: #ffffff
 		font-size: 15px
 		font-weight: 300
+		transition: 0.1s all
 
 		&:hover,
 		&:focus
@@ -54,6 +55,7 @@ a
 			cursor: pointer
 			text-decoration: none
 			color: black
+			
 	   
 .promo
 	padding-top: 75px
@@ -82,7 +84,38 @@ a
 		font-style: italic
 		span 
 			font-size: 19px
-			margin-left: 140px
+			margin-left: 235px
+.flex_right
+	display: flex
+	justify-content: flex-end		
+
+.mailto_btn
+	display: grid
+	width: 172px
+	height: 46px
+	background-color: #008e95
+	border: none
+	border-radius: 4px
+	color: white
+	font-size: 1rem
+	font-weight: 400
+	text-transform: uppercase
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.21)
+	place-content: center
+	cursor: pointer
+	transition: 0.1s
+	&:hover,
+	&:focus
+		outline: none
+		background-color: lightblue
+		text-decoration: none
+		color: black
+	&:active
+		background-color: #005a5f
+
+
+
+
 
 @media (min-width: 768px)
 	.promo
